@@ -1,7 +1,7 @@
 """
 niripwmenu Package
 
-A modern and customizable power menu for Hyprland Wayland compositor.
+A modern and customizable power menu for Niri Scrollable-Tiling Wayland compositor.
 
 This package provides a graphical interface for system operations (shutdown, reboot, logoff)
 built with Python and GTK4. It offers extensive customization through YAML configuration

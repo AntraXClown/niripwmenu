@@ -158,7 +158,7 @@ def executeCommand(command: str) -> Tuple[int, str, str]:
 
     This function runs the specified command in a shell subprocess and captures
     all output streams. It's commonly used for executing system commands like
-    poweroff, reboot, or Hyprland control commands.
+    poweroff, reboot, or niri msg commands.
 
     Args:
         command: The shell command to execute as a string

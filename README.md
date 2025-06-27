@@ -1,16 +1,16 @@
-# 🚀 hyprpwmenu
+# 🚀 niripwmenu
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/antrax2024/hyprpwmenu/refs/heads/main/src/hyprpwmenu/assets/banner.jpg" alt="hyprpwmenu Logo">
+  <img src="https://raw.githubusercontent.com/antrax2024/niripwmenu/refs/heads/main/src/niripwmenu/assets/banner.jpg" alt="niripwmenu Logo">
 </p>
 
 <div align="center">
   <span>
-    <img alt="PyPI - Version" src="https://img.shields.io/pypi/v/hyprpwmenu">
-    <img alt="AUR Version" src="https://img.shields.io/aur/version/hyprpwmenu">
-    <img alt="Python Version from PEP 621 TOML" src="https://img.shields.io/python/required-version-toml?tomlFilePath=https%3A%2F%2Fraw.githubusercontent.com%2Fantrax2024%2Fhyprpwmenu%2Frefs%2Fheads%2Fmain%2Fpyproject.toml">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/antrax2024/hyprpwmenu">
-    <img alt="PyPI - Wheel" src="https://img.shields.io/pypi/wheel/hyprpwmenu">
+    <img alt="PyPI - Version" src="https://img.shields.io/pypi/v/niripwmenu">
+    <img alt="AUR Version" src="https://img.shields.io/aur/version/niripwmenu">
+    <img alt="Python Version from PEP 621 TOML" src="https://img.shields.io/python/required-version-toml?tomlFilePath=https%3A%2F%2Fraw.githubusercontent.com%2Fantrax2024%2Fniripwmenu%2Frefs%2Fheads%2Fmain%2Fpyproject.toml">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/antrax2024/niripwmenu">
+    <img alt="PyPI - Wheel" src="https://img.shields.io/pypi/wheel/niripwmenu">
 </span>
 </div>
 
@@ -18,37 +18,37 @@ A modern and customizable power menu for [Hyprland](https://hyprland.org/https:/
 
 ## 📖 Overview
 
-**hyprpwmenu** provides a sleek graphical interface for system operations (_shutdown, reboot, and logoff_) in [Hyprland](https://hyprland.org/https:/) Wayland compositor. Built with Python and Gtk4, it offers extensive customization through configuration files and CSS styling.
+**niripwmenu** provides a sleek graphical interface for system operations (_shutdown, reboot, and logoff_) in [Hyprland](https://hyprland.org/https:/) Wayland compositor. Built with Python and Gtk4, it offers extensive customization through configuration files and CSS styling.
 
 ## Installation
 
 ### Install with pip
 
 ```bash
-pip install hyprpwmenu
+pip install niripwmenu
 ```
 
 ### Install with AUR
 
-**hyprpwmenu** is available in [AUR](https://aur.archlinux.org/).
+**niripwmenu** is available in [AUR](https://aur.archlinux.org/).
 
 ```bash
-paru -S hyprpwmenu
+paru -S niripwmenu
 # or
-yay -S  hyprpwmenu
+yay -S  niripwmenu
 ```
 
 ## 🛠️ Usage
 
 ```bash
-$ hyprpwmenu
+$ niripwmenu
 ```
 
-If the configuration or style files don't exist at the XDG_CONFIG_PATH (**/home/your_username/.config/hyprpwmenu**), **hyprpwmenu** will attempt to create default versions.
+If the configuration or style files don't exist at the XDG_CONFIG_PATH (**/home/your_username/.config/niripwmenu**), **niripwmenu** will attempt to create default versions.
 
 ## ⚙️ Configuration (`config.yaml`)
 
-The behavior and appearance of hyprpwmenu is controlled via a YAML configuration file (default: `~/.config/hyprpwmenu/config.yaml`).
+The behavior and appearance of niripwmenu is controlled via a YAML configuration file (default: `~/.config/niripwmenu/config.yaml`).
 
 ### Configuration Structure
 
@@ -87,11 +87,11 @@ You can customize the commands to suit your system setup. For example:
 - Add custom scripts: `/path/to/custom/script.sh`
 - Use different logout commands for other window managers
 
-If the configuration file doesn't exist, hyprpwmenu will create a default version automatically.
+If the configuration file doesn't exist, niripwmenu will create a default version automatically.
 
 ## 🎨 Styling (`style.css`)
 
-The visual appearance of hyprpwmenu is controlled via a CSS file (default: `~/.config/hyprpwmenu/style.css`).
+The visual appearance of niripwmenu is controlled via a CSS file (default: `~/.config/niripwmenu/style.css`).
 
 ### Key Customizable Elements
 
@@ -146,7 +146,7 @@ The default theme uses a dark color palette:
 
 You can completely customize the appearance by:
 
-1. Modifying the default `~/.config/hyprpwmenu/style.css`
+1. Modifying the default `~/.config/niripwmenu/style.css`
 2. Using the `-s` command-line option to specify a custom CSS file
 3. Adjusting colors, fonts, sizes, borders, and animations
 
@@ -154,7 +154,7 @@ The CSS follows standard GTK4 styling conventions, allowing for extensive custom
 
 ## 🔤 Keyboard Navigation
 
-**hyprpwmenu** `block` keyboard when execute and only release after the user choose one button (action) or quit **hyprpwmenu**.
+**niripwmenu** `block` keyboard when execute and only release after the user choose one button (action) or quit **niripwmenu**.
 The app supports keyboard navigation for quick access without using the mouse:
 
 ### Navigation
@@ -171,19 +171,19 @@ The app supports keyboard navigation for quick access without using the mouse:
 - Press Enter to confirm and execute the selected action
 - You can quickly navigate and execute commands using only the keyboard
 
-This keyboard navigation makes hyprpwmenu accessible and efficient for power users who prefer keyboard shortcuts over mouse interaction.
+This keyboard navigation makes niripwmenu accessible and efficient for power users who prefer keyboard shortcuts over mouse interaction.
 
-**hyprpwmenu** supports keyboard navigation for quick access without using the mouse:
+**niripwmenu** supports keyboard navigation for quick access without using the mouse:
 
-This keyboard navigation makes hyprpwmenu accessible and efficient for power users who prefer keyboard shortcuts over mouse interaction.
+This keyboard navigation makes niripwmenu accessible and efficient for power users who prefer keyboard shortcuts over mouse interaction.
 
 ## 🔗 Integration with Hyprland
 
-To launch hyprpwmenu using a keybinding in Hyprland, add a line similar to the following to your `hyprland.conf`:
+To launch niripwmenu using a keybinding in Hyprland, add a line similar to the following to your `hyprland.conf`:
 
 ```ini
-# Example: Bind Super + X to launch hyprpwmenu
-bind = SUPER, X, exec, hyprpwmenu
+# Example: Bind Super + X to launch niripwmenu
+bind = SUPER, X, exec, niripwmenu
 ```
 
 Adjust the keybinding (`SUPER, X`) as needed.
@@ -195,7 +195,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ```
 MIT License
 
-Copyright (c) 2023 HyprPwMenu Contributors
+Copyright (c) 2023 niripwmenu Contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
