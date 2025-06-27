@@ -14,11 +14,11 @@
 </span>
 </div>
 
-A modern and customizable power menu for [Hyprland](https://hyprland.org/https:/) compositor.
+A modern powermenu for [Niri Scrollable-Tiling Wayland compositor.](https://github.com/YaLTeR/nirihttps:/)
 
 ## 📖 Overview
 
-**niripwmenu** provides a sleek graphical interface for system operations (_shutdown, reboot, and logoff_) in [Hyprland](https://hyprland.org/https:/) Wayland compositor. Built with Python and Gtk4, it offers extensive customization through configuration files and CSS styling.
+**niripwmenu** provides a sleek graphical interface for system operations (_shutdown, reboot, and logoff_) in [Niri Scrollable-Tiling Wayland compositor.](https://github.com/YaLTeR/nirihttps:/) Built with Python and Gtk4, it offers extensive customization through configuration files and CSS styling.
 
 ## Installation
 
@@ -177,16 +177,13 @@ This keyboard navigation makes niripwmenu accessible and efficient for power use
 
 This keyboard navigation makes niripwmenu accessible and efficient for power users who prefer keyboard shortcuts over mouse interaction.
 
-## 🔗 Integration with Hyprland
+## 🔗 Integration with Niri
 
-To launch niripwmenu using a keybinding in Hyprland, add a line similar to the following to your `hyprland.conf`:
+To launch niripwmenu using a keybinding in [Niri](https://github.com/YaLTeR/nirihttps:/), add a keybind in your `config.kdl`:
 
 ```ini
-# Example: Bind Super + X to launch niripwmenu
-bind = SUPER, X, exec, niripwmenu
+Mod+P { spawn "niripwmenu"; }
 ```
-
-Adjust the keybinding (`SUPER, X`) as needed.
 
 ## 📜 License
 
