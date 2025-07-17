@@ -18,7 +18,7 @@ Constants:
 import os
 
 #: Current version of the niripwmenu application
-APP_VERSION = "0.1.2"
+APP_VERSION = "0.1.4"
 
 #: Application name used for configuration directories and identification
 APP_NAME = "niripwmenu"

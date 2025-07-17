@@ -1,15 +1,15 @@
 # 🚀 niripwmenu
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/antrax2024/niripwmenu/refs/heads/main/src/niripwmenu/assets/banner.jpg" alt="niripwmenu Logo">
+  <img src="https://raw.githubusercontent.com/AntraxClown/niripwmenu/refs/heads/main/src/niripwmenu/assets/banner.jpg" alt="niripwmenu Logo">
 </p>
 
 <div align="center">
   <span>
     <img alt="PyPI - Version" src="https://img.shields.io/pypi/v/niripwmenu">
     <img alt="AUR Version" src="https://img.shields.io/aur/version/niripwmenu">
-    <img alt="Python Version from PEP 621 TOML" src="https://img.shields.io/python/required-version-toml?tomlFilePath=https%3A%2F%2Fraw.githubusercontent.com%2Fantrax2024%2Fniripwmenu%2Frefs%2Fheads%2Fmain%2Fpyproject.toml">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/antrax2024/niripwmenu">
+    <img alt="Python Version from PEP 621 TOML" src="https://img.shields.io/python/required-version-toml?tomlFilePath=https%3A%2F%2Fraw.githubusercontent.com%2FAntraxClown%2Fniripwmenu%2Frefs%2Fheads%2Fmain%2Fpyproject.toml">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/AntraxClown/niripwmenu">
     <img alt="PyPI - Wheel" src="https://img.shields.io/pypi/wheel/niripwmenu">
 </span>
 </div>
@@ -41,7 +41,7 @@ yay -S  niripwmenu
 ## 🛠️ Usage
 
 ```bash
-$ niripwmenu
+niripwmenu
 ```
 
 If the configuration or style files don't exist at the XDG_CONFIG_PATH (**/home/your_username/.config/niripwmenu**), **niripwmenu** will attempt to create default versions.
